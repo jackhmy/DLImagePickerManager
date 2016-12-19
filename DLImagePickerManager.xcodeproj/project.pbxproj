@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B349E6B1E07C5C400199BB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B349E6A1E07C5C400199BB7 /* main.m */; };
+		3B349E6E1E07C5C400199BB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B349E6D1E07C5C400199BB7 /* AppDelegate.m */; };
+		3B349E711E07C5C400199BB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B349E701E07C5C400199BB7 /* ViewController.m */; };
+		3B349E741E07C5C400199BB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B349E721E07C5C400199BB7 /* Main.storyboard */; };
+		3B349E761E07C5C400199BB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B349E751E07C5C400199BB7 /* Assets.xcassets */; };
+		3B349E791E07C5C400199BB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B349E771E07C5C400199BB7 /* LaunchScreen.storyboard */; };
+		3B349E831E07C8BA00199BB7 /* DLImagePickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B349E821E07C8BA00199BB7 /* DLImagePickerManager.m */; };
+		58722CC2726F94AFBDCD3F10 /* libPods-DLImagePickerManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BEFA2F8C57DF8F4A531FA74 /* libPods-DLImagePickerManager.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B349E661E07C5C400199BB7 /* DLImagePickerManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DLImagePickerManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B349E6A1E07C5C400199BB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B349E6C1E07C5C400199BB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B349E6D1E07C5C400199BB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B349E6F1E07C5C400199BB7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3B349E701E07C5C400199BB7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3B349E731E07C5C400199BB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B349E751E07C5C400199BB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B349E781E07C5C400199BB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B349E7A1E07C5C400199BB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B349E811E07C8BA00199BB7 /* DLImagePickerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLImagePickerManager.h; sourceTree = "<group>"; };
+		3B349E821E07C8BA00199BB7 /* DLImagePickerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLImagePickerManager.m; sourceTree = "<group>"; };
+		6BEFA2F8C57DF8F4A531FA74 /* libPods-DLImagePickerManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DLImagePickerManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80445184BAA7723D9EF4C24 /* Pods-DLImagePickerManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DLImagePickerManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DLImagePickerManager/Pods-DLImagePickerManager.debug.xcconfig"; sourceTree = "<group>"; };
+		FF228242E1C22859B90ED46A /* Pods-DLImagePickerManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DLImagePickerManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-DLImagePickerManager/Pods-DLImagePickerManager.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B349E631E07C5C400199BB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58722CC2726F94AFBDCD3F10 /* libPods-DLImagePickerManager.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3925E3A687C462501DB09A03 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F80445184BAA7723D9EF4C24 /* Pods-DLImagePickerManager.debug.xcconfig */,
+				FF228242E1C22859B90ED46A /* Pods-DLImagePickerManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3B349E5D1E07C5C400199BB7 = {
+			isa = PBXGroup;
+			children = (
+				3B349E681E07C5C400199BB7 /* DLImagePickerManager */,
+				3B349E671E07C5C400199BB7 /* Products */,
+				3925E3A687C462501DB09A03 /* Pods */,
+				B77879C06A7044FA6ABEBEB0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3B349E671E07C5C400199BB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B349E661E07C5C400199BB7 /* DLImagePickerManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B349E681E07C5C400199BB7 /* DLImagePickerManager */ = {
+			isa = PBXGroup;
+			children = (
+				3B349E801E07C8BA00199BB7 /* DLImagePickerManager */,
+				3B349E6C1E07C5C400199BB7 /* AppDelegate.h */,
+				3B349E6D1E07C5C400199BB7 /* AppDelegate.m */,
+				3B349E6F1E07C5C400199BB7 /* ViewController.h */,
+				3B349E701E07C5C400199BB7 /* ViewController.m */,
+				3B349E721E07C5C400199BB7 /* Main.storyboard */,
+				3B349E751E07C5C400199BB7 /* Assets.xcassets */,
+				3B349E771E07C5C400199BB7 /* LaunchScreen.storyboard */,
+				3B349E7A1E07C5C400199BB7 /* Info.plist */,
+				3B349E691E07C5C400199BB7 /* Supporting Files */,
+			);
+			path = DLImagePickerManager;
+			sourceTree = "<group>";
+		};
+		3B349E691E07C5C400199BB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B349E6A1E07C5C400199BB7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B349E801E07C8BA00199BB7 /* DLImagePickerManager */ = {
+			isa = PBXGroup;
+			children = (
+				3B349E811E07C8BA00199BB7 /* DLImagePickerManager.h */,
+				3B349E821E07C8BA00199BB7 /* DLImagePickerManager.m */,
+			);
+			path = DLImagePickerManager;
+			sourceTree = "<group>";
+		};
+		B77879C06A7044FA6ABEBEB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BEFA2F8C57DF8F4A531FA74 /* libPods-DLImagePickerManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B349E651E07C5C400199BB7 /* DLImagePickerManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B349E7D1E07C5C400199BB7 /* Build configuration list for PBXNativeTarget "DLImagePickerManager" */;
+			buildPhases = (
+				C13B5228D5782EEC9833D48D /* [CP] Check Pods Manifest.lock */,
+				3B349E621E07C5C400199BB7 /* Sources */,
+				3B349E631E07C5C400199BB7 /* Frameworks */,
+				3B349E641E07C5C400199BB7 /* Resources */,
+				94713DDADD1990C0ED235D23 /* [CP] Embed Pods Frameworks */,
+				2DFA32421D1CDAAC56D78720 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DLImagePickerManager;
+			productName = DLImagePickerManager;
+			productReference = 3B349E661E07C5C400199BB7 /* DLImagePickerManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B349E5E1E07C5C400199BB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = JL;
+				TargetAttributes = {
+					3B349E651E07C5C400199BB7 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 8MR6BM5VB4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3B349E611E07C5C400199BB7 /* Build configuration list for PBXProject "DLImagePickerManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B349E5D1E07C5C400199BB7;
+			productRefGroup = 3B349E671E07C5C400199BB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B349E651E07C5C400199BB7 /* DLImagePickerManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B349E641E07C5C400199BB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B349E791E07C5C400199BB7 /* LaunchScreen.storyboard in Resources */,
+				3B349E761E07C5C400199BB7 /* Assets.xcassets in Resources */,
+				3B349E741E07C5C400199BB7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DFA32421D1CDAAC56D78720 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DLImagePickerManager/Pods-DLImagePickerManager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94713DDADD1990C0ED235D23 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DLImagePickerManager/Pods-DLImagePickerManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C13B5228D5782EEC9833D48D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B349E621E07C5C400199BB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B349E711E07C5C400199BB7 /* ViewController.m in Sources */,
+				3B349E831E07C8BA00199BB7 /* DLImagePickerManager.m in Sources */,
+				3B349E6E1E07C5C400199BB7 /* AppDelegate.m in Sources */,
+				3B349E6B1E07C5C400199BB7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3B349E721E07C5C400199BB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B349E731E07C5C400199BB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B349E771E07C5C400199BB7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B349E781E07C5C400199BB7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B349E7B1E07C5C400199BB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3B349E7C1E07C5C400199BB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B349E7E1E07C5C400199BB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F80445184BAA7723D9EF4C24 /* Pods-DLImagePickerManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8MR6BM5VB4;
+				INFOPLIST_FILE = DLImagePickerManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ciopaas.DLImagePickerManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B349E7F1E07C5C400199BB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF228242E1C22859B90ED46A /* Pods-DLImagePickerManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8MR6BM5VB4;
+				INFOPLIST_FILE = DLImagePickerManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ciopaas.DLImagePickerManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B349E611E07C5C400199BB7 /* Build configuration list for PBXProject "DLImagePickerManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B349E7B1E07C5C400199BB7 /* Debug */,
+				3B349E7C1E07C5C400199BB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B349E7D1E07C5C400199BB7 /* Build configuration list for PBXNativeTarget "DLImagePickerManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B349E7E1E07C5C400199BB7 /* Debug */,
+				3B349E7F1E07C5C400199BB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B349E5E1E07C5C400199BB7 /* Project object */;
+}
